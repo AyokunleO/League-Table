@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.first table {
+    border: 5px solid blue;
+    width: 700px;
+    border-bottom: 0;
+    border-collapse: collapse;
+}
+
+.first table tr th, .first td {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.first table td .a {
+    background-color: rgb(228, 86, 117);
+}
+ .remove {
+    border-bottom: 0;
+}
+
+
+.second table {
+    border: 2px dotted;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+.second table tr th, .second td {
+    border: 2px dotted black;
+    padding: 10px;
+    text-align: center;
+}
+
+
