@@ -11,7 +11,7 @@ body {
 }
 
 .first table {
-    border: 5px solid blue;
+    border: 5px solid rgb(2, 2, 43);
     width: 700px;
     border-bottom: 0;
     border-collapse: collapse;
@@ -22,13 +22,30 @@ body {
     text-align: center;
 }
 
-.first table td .a {
-    background-color: rgb(228, 86, 117);
-}
- .remove {
-    border-bottom: 0;
+.first table .left {
+    text-align: left;
 }
 
+
+.first table .color {
+    background-color: rgb(228, 86, 117);
+}
+
+.first table .blue {
+    background-color: rgb(133, 163, 228);
+}
+
+.first table .red {
+    background-color: rgb(184, 22, 57);
+}
+
+.first table .yellow {
+    background-color: rgb(237, 248, 135);
+}
+
+.first table .a {
+    border-bottom: none;
+}
 
 .second table {
     border: 2px dotted;
